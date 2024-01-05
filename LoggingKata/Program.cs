@@ -91,7 +91,7 @@ namespace LoggingKata
             // Display these two Taco Bell locations to the console.
 
             Console.WriteLine($"\nThe farthest Taco Bells from the list are {tacoBell1.Name} and {tacoBell2.Name}.");
-            Console.WriteLine($"The distance between them is {(int)distance} miles or {(int)(distance * 1.6)} kilometers!");
+            Console.WriteLine($"The distance between them is {(int)(distance/1000)} kilometers or {Math.Round(distance * 0.00062)} miles!");
 
 
         }
